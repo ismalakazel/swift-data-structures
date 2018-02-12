@@ -3,20 +3,20 @@ import XCTest
 
 /**
  
- A suite of tests for the bubbleSort function.
+ A suite of tests for the selectionSort function.
  
  */
-public class BubbleSortTests: XCTestCase {
+public class SelectionSortTests: XCTestCase {
     
     func testArrayIsSortedByAscendingOrder() {
         var unsortedArray: [Int] = [4, 2, 7, 1, 3]
-        let sorted = unsortedArray.bubbleSort()
+        let sorted = unsortedArray.selectionSort()
         XCTAssertEqual(sorted, [1, 2, 3, 4, 7])
     }
     
     func testArrayIsSameSize() {
         var unsortedArray: [Int] = [4, 2, 7, 1, 3]
-        let sorted = unsortedArray.bubbleSort()
+        let sorted = unsortedArray.selectionSort()
         XCTAssertEqual(sorted.count, 5)
     }
     
@@ -27,7 +27,7 @@ public class BubbleSortTests: XCTestCase {
         }
         
         measureMetrics([.wallClockTime], automaticallyStartMeasuring: true) {
-            unsortedArray.bubbleSort()
+            unsortedArray.selectionSort()
         }
     }
 }
