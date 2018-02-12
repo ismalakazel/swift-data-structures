@@ -1,4 +1,4 @@
-# Insertion Sort.
+# Insertion Sort
  
 Starting at index N = 1, the algorithm will leave a gap at index N and shift right every element that comes before it and is greater than it. The algorithm then places element at N at the last shifted element's index.
  
