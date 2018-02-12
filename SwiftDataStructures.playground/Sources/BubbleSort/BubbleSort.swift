@@ -1,10 +1,5 @@
 extension Array where Array.Element: Comparable {
     
-    /**
-     
-     Sorts the array in ascending order by swapping array elements each time n > n+1.
-     
-    */
     @discardableResult
     public mutating func bubbleSort() -> [Array.Element] {
         
