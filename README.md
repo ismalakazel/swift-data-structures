@@ -15,4 +15,5 @@
 
 - [Bubble Sort](https://github.com/ismalakazel/swift-data-structures/tree/master/SwiftDataStructures.playground/Sources/BubbleSort)
 - [Selection Sort](https://github.com/ismalakazel/swift-data-structures/tree/master/SwiftDataStructures.playground/Sources/SelectionSort)
+- [Insertion Sort](https://github.com/ismalakazel/swift-data-structures/tree/master/SwiftDataStructures.playground/Sources/InsertionSort)
 
